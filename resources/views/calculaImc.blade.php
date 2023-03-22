@@ -76,6 +76,6 @@
             </div> 
         </form>
     </section>
-    <h2>De acordo com seu imc você se encaixa na categoria {{$resultadoImc}}</h2>
+    <h2>{{$dados['nome']}} de acordo com seu imc você se encaixa na categoria {{$imcResult}}</h2>
 </body>
 </html>
